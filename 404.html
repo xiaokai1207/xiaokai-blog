@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ch-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>xiaokai-blog</title><meta name="description" content="这些年积累的经验都在这里">
+    <link rel="preload" href="/assets/style-DKhmtDyj.css" as="style"><link rel="stylesheet" href="/assets/style-DKhmtDyj.css">
+    <link rel="modulepreload" href="/assets/app-CfxXJSYS.js"><link rel="modulepreload" href="/assets/404.html-BqTqEydL.js">
+    <link rel="prefetch" href="/assets/index.html-bIPfd74E.js" as="script"><link rel="prefetch" href="/assets/get-started.html-B9BXyBdP.js" as="script"><link rel="prefetch" href="/assets/basic1.html-B_aS0NU1.js" as="script"><link rel="prefetch" href="/assets/basic2.html-_dlWdKy6.js" as="script"><link rel="prefetch" href="/assets/blog.html-5vkKezyU.js" as="script"><link rel="prefetch" href="/assets/k8s.html-C0mQiNKQ.js" as="script"><link rel="prefetch" href="/assets/index.html-Cw_Vq5ii.js" as="script"><link rel="prefetch" href="/assets/index.html-MMJVDQwD.js" as="script"><link rel="prefetch" href="/assets/index.html-BMCPmgp2.js" as="script"><link rel="prefetch" href="/assets/index.html-B_B2QIsr.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-16ae791c><main class="page" data-v-16ae791c><div vp-content data-v-16ae791c><h1 data-v-16ae791c>404</h1><blockquote data-v-16ae791c>How did we get here?</blockquote><a class="route-link" href="/" data-v-16ae791c>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CfxXJSYS.js" defer></script>
+  </body>
+</html>
