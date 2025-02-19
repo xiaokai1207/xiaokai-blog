@@ -4,7 +4,7 @@ title: Home
 heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: 阅读文章
-    link: /posts/archive1.html
+    link: /other/bolg.html
     type: primary
 
 features:
