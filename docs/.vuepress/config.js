@@ -5,14 +5,14 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   base: '/xiaokai-blog/',
+  head: [
+    ['link', { rel: 'icon', href: '/xiaokai-blog/assets/fm.ico' }],
+  ],
   lang: 'ch-CN',
-
-  title: 'xiaokai-blog',
-  description: '这些年积累的经验都在这里',
-
+  title: '前端大师',
+  description: '探索前端技术的无限可能，分享web开发的精髓所在',
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
-
+    logo: '/assets/logo.png',
     navbar: [
       '/',
       {
@@ -67,7 +67,7 @@ export default defineUserConfig({
 
       // Getting article info
       getInfo: ({ frontmatter, title, data }) => ({
-        title,
+        title, 
         author: frontmatter.author || '',
         date: frontmatter.date || null,
         category: frontmatter.category || [],

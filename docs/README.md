@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://vuejs.press/images/hero.png
+heroImage: /assets/logo.png
 actions:
   - text: 阅读文章
     link: /other/blog.html
