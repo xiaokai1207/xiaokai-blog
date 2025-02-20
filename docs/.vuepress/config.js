@@ -52,6 +52,7 @@ export default defineUserConfig({
           text: '杂项',
           children: [
             '/other/blog.html',
+            '/other/versionManage.html',
           ],
         },
       ],

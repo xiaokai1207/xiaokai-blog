@@ -98,3 +98,8 @@ export default defineUserConfig({
 
 原因是静态资源都是放到 `https://xiaokai1207.github.io/xiaokai-blog/` 这个目录下的，如果不配置 base 的话，就访问到 `https://xiaokai1207.github.io/` 这个目录下去了。
 
+---
+
+参考链接：
+
+- [vuepress](https://vuepress.vuejs.org/guide/getting-started.html#try-it-online)
