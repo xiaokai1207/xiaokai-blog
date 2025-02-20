@@ -20,6 +20,10 @@ export default defineUserConfig({
         link: '/basic/basic1.html',
       },
       {
+        text: '跨端技术',
+        link: '/crossEnd/hybrid.html',
+      },
+      {
         text: '杂项',
         link: '/other/blog.html',
       },
