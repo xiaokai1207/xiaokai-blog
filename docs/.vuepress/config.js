@@ -51,6 +51,15 @@ export default defineUserConfig({
           ],
         },
       ],
+      '/crossEnd/': [
+        {
+          text: '跨端技术',
+          children: [
+            '/crossEnd/hybrid.html',
+            '/crossEnd/jsbridge.html',
+          ],
+        },
+      ],
       '/other/': [
         {
           text: '杂项',
