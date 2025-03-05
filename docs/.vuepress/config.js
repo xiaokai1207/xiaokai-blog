@@ -10,7 +10,7 @@ export default defineUserConfig({
   ],
   lang: 'ch-CN',
   title: '前端大师',
-  description: '探索前端技术的无限可能，分享web开发的精髓所在',
+  description: '探索前端技术的无限可能',
   theme: defaultTheme({
     logo: '/assets/logo.png',
     navbar: [
@@ -18,6 +18,10 @@ export default defineUserConfig({
       {
         text: '前端基础',
         link: '/basic/basic1.html',
+      },
+      {
+        text: 'Node.js',
+        link: '/node/node-basic.html',
       },
       {
         text: '跨端技术',
@@ -48,6 +52,14 @@ export default defineUserConfig({
           children: [
             '/basic/basic1.html',
             '/basic/basic2.html',
+          ],
+        },
+      ],
+      '/node/': [
+        {
+          text: 'Node.js',
+          children: [
+            '/node/node-basic.html',
           ],
         },
       ],
